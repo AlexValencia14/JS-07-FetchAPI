@@ -1,0 +1,24 @@
+NOTAS DE CLASE SCRIPTFETCH.JS
+
+	Tipos de APIs:
+		internas
+		externas
+
+	Tipos de operaciones:
+		sincronicas --> Tiene que terminar una operación para iniciar otra
+		asincronicas --> Se pueden ejecutar mientras se espera la respuesta de una operacion
+
+	Estructura general para traer datos:
+		fetch('https:....')
+		.then( datos )
+		.catch(mostrar errores)
+
+	tipos de texto:
+		Servidor
+		JSON
+
+	convertir los tipos de texto:
+		datoServidor = JSON.stringify( dato); --> de JSON a Servidor
+		datoJSON = JSON.parse(datoServidor) --> de Servidor a JSON
+
+	Enviar datos
